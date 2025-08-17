@@ -110,7 +110,6 @@ export const DateTimePicker: React.FC<DateTimePickerProps> = ({
                 }
                 return `rounded-full`;
               }}
-              // Dodaj custom wrapperClassName, aby wymusić szerokość na mobile
               calendarClassName="!w-full"
             />
           </div>

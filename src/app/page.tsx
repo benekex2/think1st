@@ -71,7 +71,7 @@ export default function Home() {
       >
         <h2 className={`font-medium mb-4 text-2xl`}>Personal info</h2>
         <Input
-          label="FirstName"
+          label="First Name"
           value={firstName}
           onChange={(e) => setFirstName(e.target.value)}
         />
